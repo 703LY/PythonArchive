@@ -41,10 +41,6 @@ entry_discount.pack(pady=(0,10))
 label_final = Label(window, text= f"Final Price: Rp. 0")
 label_final.pack(pady=(10,0))
 
-# customizables
-icon = PhotoImage(file="assets/wizard.png")
-window.iconphoto(True, icon)
-
 # buttons (for users to click to run functions)
 button = Button(window, text="Calculate")
 button.config(command=discountfunc)
