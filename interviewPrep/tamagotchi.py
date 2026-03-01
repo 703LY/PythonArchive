@@ -38,9 +38,12 @@ class Tamagotchi:
 
 
 # game logic
+
 tama_name = input("hi, will you give me a name please?")
 
 my_tama = Tamagotchi().birth(tama_name)
+
+
 # my_tama = Tamagotchi()
 # my_tama.birth(tama_name)
 
